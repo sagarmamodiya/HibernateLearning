@@ -16,7 +16,7 @@ public class Test {
         user.setUserId(1);
         user.setUsername("Mukesh");
         user.setCreatedBy("Google");
-        //new Date() will initialize with current date and time.
+        //new Date() will initialize with current date.
         user.setCreatedDate(new Date());
  
         session.save(user);
